@@ -1,5 +1,7 @@
 <h1>view</h1>
 
- @foreach($view_tasks as $data)
-     {{{$data}}}
-    @endforeach
+ @foreach($tasks as $task)
+ {{{$task->id}}}
+ {{{$task->title}}}
+ {{{$task->done}}}
+ @endforeach
