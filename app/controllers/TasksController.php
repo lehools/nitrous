@@ -17,7 +17,10 @@ class TasksController extends BaseController {
 	}
   public function view()
 	{
-    $tasks = Tasks::all();
-    return View::make('tasks.view')->with('tasks',$tasks);
+    //$tasks = Tasks::all();
+    //return View::make('tasks.view')->with('tasks',$tasks);
+    
+    $tasks = Tasks::paginate(2);
+    return View::make('tasks.view')->with('tasks',$tasks);    
 	}
 }
