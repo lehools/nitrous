@@ -62,13 +62,12 @@ return array(
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),
-
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'todomvc_dev',
-			'username' => 'action',
-			'password' => '',
+			'host'     => 'ec2-54-243-50-213.compute-1.amazonaws.com',
+			'database' => 'da641tgohdj10j',
+			'username' => '5432',
+			'password' => 'Show',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
