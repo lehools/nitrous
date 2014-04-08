@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('pyke-php-95482'),
+	'local' => array('pyke-php-95482')
 
 ));
 

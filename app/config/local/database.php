@@ -1,6 +1,7 @@
 <?php
 
 return array(
+'connections' => array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
@@ -11,5 +12,5 @@ return array(
 			'prefix'   => '',
 			'schema'   => 'public',
 		)
-
+  )
 );
