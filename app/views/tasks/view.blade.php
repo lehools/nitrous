@@ -9,7 +9,7 @@
 
 @if ($tasks->getLastPage() > 1)
 <ul class="ui pagination menu">
-  <a href="{{ $tasks->getUrl(1) }}"
+  <a href="{{ $tasks->getUrl($tasks->getCurrentPage()-1) }}"
     class="item{{ ($tasks->getCurrentPage() == 1) ? ' disabled' : '' }}">
         <i class="icon left arrow"></i> Previous
       </a>
