@@ -17,6 +17,8 @@ Route::get('/', function()
 });
 Route::get('tasks/create', array('as' => 'tasks_create', 'uses' => 'TasksController@create'));
 Route::post('tasks/create', array('as' => 'tasks_store', 'uses' => 'TasksController@store'));
+Route::get('tasks/view', array('as' => 'tasks_view', 'uses' => 'TasksController@view'));
+
 Route::get('/test/{name}', function($name)
 {
   echo "test " . $name;

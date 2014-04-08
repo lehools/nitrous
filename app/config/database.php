@@ -66,7 +66,7 @@ return array(
 			'driver'   => 'pgsql',
 			'host'     => 'ec2-54-243-50-213.compute-1.amazonaws.com',
 			'database' => 'da641tgohdj10j',
-			'username' => '5432',
+			'username' => 'cazebdmzhixdqt',
 			'password' => 'Show',
 			'charset'  => 'utf8',
 			'prefix'   => '',
@@ -113,8 +113,8 @@ return array(
 		'cluster' => false,
 
 		'default' => array(
-			'host'     => '127.0.0.1',
-			'port'     => 6379,
+			'host'     => 'ec2-54-243-50-213.compute-1.amazonaws.com',
+			'port'     => 5432,
 			'database' => 0,
 		),
 

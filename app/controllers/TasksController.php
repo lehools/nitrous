@@ -15,4 +15,9 @@ class TasksController extends BaseController {
    
     return Redirect::route('tasks_create');
 	}
+  public function view()
+	{
+    $view_tasks = Tasks::all();
+    return View::make('tasks.view', [$view_tasks] );
+	}
 }
