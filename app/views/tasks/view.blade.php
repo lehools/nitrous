@@ -7,6 +7,8 @@
 <br/>
  @endforeach
 
+{{$tasks->links()}}
+
 @if ($tasks->getLastPage() > 1)
 <ul class="ui pagination menu">
   <a href="{{ $tasks->getUrl($tasks->getCurrentPage()-1) }}"
